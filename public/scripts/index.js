@@ -68,20 +68,52 @@ const locationCards1 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
   {
@@ -94,20 +126,52 @@ const locationCards1 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
   {
@@ -120,20 +184,52 @@ const locationCards1 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
 ];
@@ -150,20 +246,52 @@ const locationCards2 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
   {
@@ -176,20 +304,52 @@ const locationCards2 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
   {
@@ -202,20 +362,52 @@ const locationCards2 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
   {
@@ -228,20 +420,52 @@ const locationCards2 = [
       todoCards: [
         {
           img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
-          location: "Burj Khalifa",
-          rating: 4.8,
+          activity:
+            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
+          price: "4,569",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/dubai-mall.jpg",
-          location: "The Dubai mall",
-          rating: 4.5,
+          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
+          activity: "Abu Dhabi Private City Tour",
+          price: "17,079",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/la-mer.jpg",
-          location: "la Mer",
-          rating: 4.3,
+          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
+          activity: "Yacht Cruising in Dubai",
+          price: "35,043",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
+          activity: "Atlantis Aquaventure Ticket",
+          price: "7,330",
+        },
+        {
+          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
+          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
+          price: "7,310",
         },
       ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+        localCustoms: [
+          {
+            heading: "Drinking",
+            content:
+              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+          },
+          {
+            heading: "Clothing",
+            content:
+              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+          },
+          {
+            heading: "Photography",
+            content:
+              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+          },
+        ],
+      },
     },
   },
 ];
