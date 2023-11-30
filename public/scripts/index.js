@@ -503,7 +503,7 @@ function createCard(cardData, cardContainer) {
 
   cardContainer.appendChild(card);
 
-  card.addEventListener("click", () => {
+  card.addEventListener("click", (event) => {
     populateSidebarData(cardData.sidebar);
     body.classList.add("overflow-hidden");
     sidebarOverlay.classList.toggle("hidden");
@@ -512,6 +512,7 @@ function createCard(cardData, cardContainer) {
   });
 }
 
+// close button functionality
 closeBtn.addEventListener("click", () => {
   body.classList.remove("overflow-hidden");
   sidebarOverlay.classList.toggle("hidden");
@@ -519,6 +520,7 @@ closeBtn.addEventListener("click", () => {
   sidebar.classList.toggle("w-0");
 });
 
+// Generating home page cards
 locationCards1.forEach((cardData) => {
   createCard(cardData, cardContainer1);
 });
@@ -542,21 +544,24 @@ function populateSidebarData(sidebarData) {
 
   sidebarData.todoCards.forEach((todoCard) => {
     const card = document.createElement("div");
-    card.classList.add("flex", "flex-col", "items-center", "mb-4");
+
     card.innerHTML = `
-        <div class="w-full mx-auto bg-lightest rounded-xl overflow-hidden my-8">
-            <img class="w-full h-[50%] object-cover" src="${todoCard.img}" alt="Card Image">
-            <div class="p-4">
-                <h2 class="text-base font-[500] text-dark">${todoCard.activity}</h2>
-                <span class="text-mid text-sm">Some content goes here...</span>
-            </div>
-            <div class="flex justify-between items-center p-4">
-                <div>
-                    <p class="text-sm font-[400] text-dark">&#8377;${todoCard.price}</p>
-                </div>
-                <button class="bg-brand text-darkest p-2 rounded-lg text-sm">Book</button>
-            </div>
+    <div class="max-w-xs rounded overflow-hidden shadow-lg bg-white mb-16\">
+      <img class="w-full h-32 object-cover" src="${todoCard.img}" alt="Card Image">
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">
+          <a href="#" class="card-link hover:text-brand overflow-hidden block whitespace-nowrap overflow-ellipsis">
+            ${todoCard.activity}
+          </a>
         </div>
+        <p class="text-gray-700 text-base">from &#8377;${todoCard.price}</p>
+      </div>
+      <div class="px-6 py-4">
+        <button class="bg-brand hover:text-dark text-white font-bold py-2 px-4 rounded">
+          Book
+        </button>
+      </div>
+    </div>
     `;
 
     populateTravelAdvice(sidebarData.travelAdvice);
