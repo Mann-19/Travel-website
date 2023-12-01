@@ -56,6 +56,16 @@ const locationCards1 = [
           },
         ],
       },
+      videoCode: `<iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/VE75g0frvr4?si=kQPdiPBDfBdTfsl0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+      class = 'w-full h-full'"
+    ></iframe>`,
     },
   },
   {
@@ -63,57 +73,53 @@ const locationCards1 = [
     name: "Sydney, Australia",
     sidebar: {
       locationName: "Sydney",
-      img: "../public/Images/sidebar/sydney.jpg",
+      img: "../public/Images/sidebar/sydney/sydney.jpg",
       info: "Sydney offers an urban mix of rich history and contemporary buzz, but with a distinctly Australian spirit. To understand why this city is so singular, take the clifftop coastal walk from Bondi to Coogee, where you’ll pass by beaches, rock pools, and lush parks. Then there’s the marvellous Sydney Opera House—jutting up like a great origami sailboat—anchoring the city’s iconic harbour. It’s also worth seeing the city from the top down; the views from the Sydney Tower Eye observatory are epic—and it’ll get you oriented on how everything is connected.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/sydney/mountains-day.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "All Inclusive Small-Group Blue Mountains Day Trip from Sydney with Scenic World",
+          price: "16,137.29",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/sydney/sydney-cruise.jpg",
+          activity:
+            "Journey Beyond Cruise Sydney Harbour - All inclusive Dinner Cruise",
+          price: "11,211",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
+          img: "../public/Images/sidebar/sydney/sydney-harbour.jpg",
+          activity: "Sydney Harbour Tour by Helicopter",
+          price: "13,589",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/sydney/wildlife-park.jpg",
+          activity:
+            "Blue Mountains: Three Sisters, Scenic World and Wildlife park",
+          price: "18,402",
         },
       ],
       travelAdvice: {
         bestTimeToVisit:
-          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+          "March to May: The best times to visit Sydney are between March and May and September and November. You’ll find more comfortable temperatures and fewer crowds — which means you can likely nab better prices on airfare, too.But if you want to warm up with the masses from winter back home, the average daily temperatures in January can hit highs of 30°C/86°F and lows around 20°C/67°F.",
         localCustoms: [
           {
             heading: "Drinking",
-            content:
-              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+            content: "The legal drinking age in Sydney is 18.",
           },
           {
-            heading: "Clothing",
-            content:
-              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
+            heading: "Greetings",
+            content: "Handshakes are a customary greeting in Sydney.",
           },
           {
-            heading: "Photography",
+            heading: "Public transit",
             content:
-              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+              "Offer your seat to people who are old, pregnant or have mobility issues.",
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/QA_SY4b1tNI?si=nk57l0sNiZ9yD_nd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class = 'w-full h-full'></iframe>`,
     },
   },
   {
@@ -121,57 +127,49 @@ const locationCards1 = [
     name: "Taipei, Taiwan",
     sidebar: {
       locationName: "Taipei",
-      img: "../public/Images/sidebar/taipei-1.jpg",
+      img: "../public/Images/sidebar/taipei/taipei-1.jpg",
       info: "The bustling metropolis of Taipei is where you’ll find shiny skyscrapers and ancient temples hazy with incense standing side by side. Spend your day taking in the view from up above at the Taipei 101 before shopping your way down the streets of Ximending (with a bubble tea in hand, of course). As night falls, eat your way across the numerous night markets. From the XXL fried chicken cutlets to the stinky tofu, the street food here is addictive and will leave you hankering for more.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/taipei/to-do/taroko-national-park.jpg",
+          activity: "Private Taroko Gorge National Park Day Tour",
+          price: "12,810",
+        },
+        {
+          img: "../public/Images/sidebar/taipei/to-do/food-tour.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "The Award-Winning PRIVATE Food Tour of Taipei: The 10 Tastings",
+          price: "6,754",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/taipei/to-do/cycling-tour.jpg",
+          activity: "4-Hour Morning Cycling Tour in Taipei",
+          price: "5,546",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/taipei/to-do/northern-taiwan-tour.jpg",
+          activity:
+            "Full-Day Private Northern Taiwan Tour from Taipei with Pickup",
+          price: "9,394",
         },
       ],
       travelAdvice: {
         bestTimeToVisit:
-          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+          "Fall (September to November): Taipei is a subtropical climate, so you will not experience four distinct seasons. The best time to visit is during the fall, when the weather is a little cooler, and rainfall is at its lowest.",
         localCustoms: [
           {
-            heading: "Drinking",
+            heading: "Dining",
             content:
-              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
+              "Never stand your chopsticks up in your rice bowl — it is seen as food left for the dead, which is usually done at funerals. When beckoning someone over, such as a waiter, face your palm downward and make small sweeping motions toward yourself — not palm up like in western countries, which is considered rude in Taiwanese culture. Tapping your thumbs on the table is also seen as a compliment when eating.",
           },
           {
-            heading: "Clothing",
+            heading: "Pleasantries",
             content:
-              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
-          },
-          {
-            heading: "Photography",
-            content:
-              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+              "Thank you in Chinese sounds like zjay zjay (Xie xie). For more information about local customs and etiquette in Taiwan, see here.",
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/ZNC9V1J-ebg?si=-G5VgKLB2PyXEqoI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
   {
@@ -179,57 +177,50 @@ const locationCards1 = [
     name: "Airlie Beach, Australia",
     sidebar: {
       locationName: "Airlie Beach",
-      img: "../public/Images/sidebar/airlie-beach.jpg",
+      img: "../public/Images/sidebar/airlie-beach/airlie-beach.jpg",
       info: "The gateway to the Great Barrier Reef, Airlie Beach is the main hub for all Reef activities and access to the Whitsunday Islands. Stunning views by day give way to a vibrant nightlife. The Airlie Beach Lagoon is a popular spot to relax and unwind. Visit nearby Conway National Park and Cedar Creek Falls to discover quiet coves, beaches and tropical rainforest.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/airlie-beach/to-do/jet-ski-tour.jpg",
+          activity: "Whitsundays Guided Jet Ski Tour",
+          price: "7,066",
+        },
+        {
+          img: "../public/Images/sidebar/airlie-beach/to-do/beach-day-tour.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "Whitsundays Whitehaven Beach Day Tour - 2 Beaches 2 Lookouts 1 Snorkel Location",
+          price: "11,814",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/airlie-beach/to-do/scenic-flight.jpg",
+          activity:
+            "Whitsunday Islands and Heart Reef Scenic Flight - 70 minutes",
+          price: "15,771",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
+          img: "../public/Images/sidebar/airlie-beach/to-do/sailing-cruise.jpg",
+          activity:
+            "2-Night Whitsundays Sailing Cruise incl. Whitehaven Beach & Great Barrier Reef",
+          price: "28,208",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/dubai/to-do/ocean-rafting-tour.jpg",
+          activity:
+            "Ocean Rafting Tour to Whitehaven Beach, Hill Inlet Lookout & Top Snorkel Spots",
+          price: "10,797",
         },
       ],
       travelAdvice: {
         bestTimeToVisit:
-          "Winter (November to March): Dubai has a hot desert climate with two distinct seasons. The winter months have the most pleasant weather, ideal for outdoor activities. The average daytime high is around 27°C with lows of around 17°C.",
+          "Spring is the best time to visit, more specifically, the months of September to November because the weather is perfect and town is pumping.",
         localCustoms: [
           {
-            heading: "Drinking",
-            content:
-              "The legal drinking age for Dubai is 21 years old but buying and consuming alcohol is only legal at licensed bars and clubs at major hotels -- and only for hotel guests and non-Muslim residents with government-issued liquor licenses.",
-          },
-          {
-            heading: "Clothing",
-            content:
-              "The UAE is a mostly Muslim country with strict standards of dress and behaviour. Dress modestly and ensure your shoulders and knees are covered.",
-          },
-          {
-            heading: "Photography",
-            content:
-              "It is illegal to photograph people without their consent, airports and other transport infrastructure, government buildings, some beaches, and palaces. Travelers should do their own research and be aware of signs which indicate where photography is prohibited.",
+            heading: "No specific customs",
+            content: "",
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/p569v1r0esA?si=EW0TiQIh0dkYYyTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
 ];
@@ -479,9 +470,13 @@ const sidebar = document.getElementById("sidebar");
 const sidebarOverlay = document.getElementById("sidebar-overlay");
 const closeBtn = document.getElementById("close-btn");
 
+let parentCardCounter = 1;
+
 // Function to create each card dynamically
 function createCard(cardData, cardContainer) {
   const card = document.createElement("div");
+  card.id = `${parentCardCounter}`;
+
   card.classList.add(
     "relative",
     "w-1/4",
@@ -499,12 +494,13 @@ function createCard(cardData, cardContainer) {
             <h2 class="text-2xl font-bold">${cardData.name}</h2>
         </div>
     </div>
-    `;
+  `;
 
+  parentCardCounter++;
   cardContainer.appendChild(card);
 
   card.addEventListener("click", (event) => {
-    populateSidebarData(cardData.sidebar);
+    populateSidebarData(cardData.sidebar, card.id);
     body.classList.add("overflow-hidden");
     sidebarOverlay.classList.toggle("hidden");
     sidebar.classList.toggle("w-0");
@@ -529,7 +525,7 @@ locationCards2.forEach((cardData) => {
 });
 
 // Function to populate data into sidebar dynamically
-function populateSidebarData(sidebarData) {
+function populateSidebarData(sidebarData, parentID) {
   document.getElementById("location-name").textContent =
     sidebarData.locationName;
   document.getElementById("sidebar-img").src = sidebarData.img;
@@ -542,8 +538,11 @@ function populateSidebarData(sidebarData) {
   );
   sideBarCardContainer.innerHTML = "";
 
+  let childCardCounter = 1;
   sidebarData.todoCards.forEach((todoCard) => {
     const card = document.createElement("div");
+    card.setAttribute("data-id", `${parentID}-${childCardCounter}`);
+    childCardCounter++;
 
     card.innerHTML = `
     <div class="max-w-xs rounded overflow-hidden shadow-lg bg-white mb-16\">
@@ -563,10 +562,21 @@ function populateSidebarData(sidebarData) {
       </div>
     </div>
     `;
+    //
+    const cardLink = card.querySelector(".card-link");
+    cardLink.addEventListener("click", (event) => {
+      event.preventDefault();
 
-    populateTravelAdvice(sidebarData.travelAdvice);
+      const id = card.getAttribute("data-id");
+      const newUrl = `./tours.html?id=${id}`;
+
+      window.location.href = newUrl;
+    });
+
     sideBarCardContainer.appendChild(card);
   });
+  populateTravelAdvice(sidebarData.travelAdvice);
+  populateVideo(sidebarData.videoCode);
 }
 
 // Funtion to populate data into travel-advice section dynamically
@@ -586,6 +596,16 @@ function populateTravelAdvice(travelData) {
 
     localCustomsContent.appendChild(element);
   });
+}
+
+function populateVideo(videoCode) {
+  const videoContainer = document.getElementById("video-container");
+  const videoElement = document.createElement("div");
+  videoContainer.innerHTML = "";
+  videoElement.innerHTML = `${videoCode}`;
+  videoElement.classList.add("w-[70%]", "h-[80%]");
+
+  videoContainer.appendChild(videoElement);
 }
 
 // Adding scroll-into-view features for sidebar links

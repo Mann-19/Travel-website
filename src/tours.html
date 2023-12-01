@@ -1,14 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/styles/style.css" />
     <title>TourAdvisor</title>
-</head>
-<body>
-    <!-- Placeholder text -->
-    <h2>hello world</h2>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav id="navbar" class="bg-light text-lightest p-2">
+      <div class="container mx-auto flex items-center justify-between">
+        <!-- Brand/Logo -->
+        <div class="flex items-center">
+          <span class="text-xl font-[800] text-brand cursor-pointer"
+            >TourAdvisor</span
+          >
+          <!-- Search Bar -->
+          <input
+            type="text"
+            placeholder="Where To?"
+            class="ml-10 px-2 py-1 border rounded-2xl outline-none text-darkest"
+          />
+        </div>
+
+        <!-- Navbar Links -->
+        <div class="space-x-4">
+          <a
+            href="./index.html"
+            class="nav-link text-dark text-base font-[500] hover:bg-mid rounded-lg p-2"
+            >Home</a
+          >
+          <button
+            id="reviewBtn"
+            class="nav-link text-dark text-base font-[500] hover:bg-mid rounded-lg p-2"
+          >
+            Review
+          </button>
+        </div>
+
+        <!-- Sign In Button -->
+        <button
+          id="signInBtn"
+          class="bg-brand text-darkest hover:text-brand hover:bg-darkest p-2 rounded-lg"
+        >
+          Sign In
+        </button>
+      </div>
+    </nav>
+
+    <!-- Location name heading -->
+    <h1
+      id="location-name"
+      class="text-3xl text-brand font-[700] mx-8 mt-4 underline"
+    ></h1>
+    <header id="header" class="flex">
+      <!-- Map element -->
+      <div id="map-container" class="m-8 rounded-lg overflow-hidden">
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7220.342447009472!2d55.274348036209396!3d25.197447618829624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5eda9fb3c93b69d!2sDubai%20Mall!5e0!3m2!1sen!2sin!4v1701361693776!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+      </div>
+
+      <!-- Itinerary planner -->
+      <section id="itinerary-planner">
+        <h1 class="text-2xl text-darkest font-[500] my-8 underline block">
+          Itinerary
+        </h1>
+        <!-- Starting point div -->
+        <div class="flex gap-2 w-fit" id="journey-start-element">
+          <div class="flex flex-col items-center">
+            <!-- map pin -->
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                width="24"
+                height="24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M12 2c-4.418 0-8 3.582-8 8 0 6.05 8 13 8 13s8-6.95 8-13c0-4.418-3.582-8-8-8zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"
+                />
+              </svg>
+            </div>
+
+            <!-- vertical line -->
+            <div class="rotate-90">
+              <svg height="40" width="40">
+                <g stroke="gray" stroke-width="2">
+                  <path stroke-dasharray="7,7" d="M5 20 l215 0" />
+                </g>
+              </svg>
+            </div>
+          </div>
+
+          <div class="text-lg text-dark font-[500] -my-1">
+            Journey Commences, Enjoy Your Trip!
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <!-- About section -->
+    <section>
+      <h3 class="text-xl text-dark mx-8 font-[700]">About</h3>
+
+      <p id="about-info" class="text-base mx-10 mt-4 w-[85%]">
+        Experience the best of Abu Dhabi with the benefit of your own guide to
+        provide the insights you want on this private half-day tour. Travel by
+        private air-conditioned vehicle and spend as much or as little time as
+        you wish at highlights including the Sheikh Zayed Grand Mosque,
+        Corniche, and Heritage Village. Plus, select your departure time and add
+        stops such as Yas Island for a tour that’s fully customized to your
+        needs and interests.
+      </p>
+
+      <p class="text-base mx-10 mt-4 text-dark">
+        from
+        <span id="price" class="text-xl text-dark font-[500] mx-2"
+          >₹17,081.19</span
+        >
+        per group
+      </p>
+
+      <div class="flex gap-4 mx-10 mt-2 mb-12">
+        <p class="text-sm text-darkest font-[500] underline">
+          Lowest price guarantee
+        </p>
+        &#9642;
+        <p class="text-sm text-darkest font-[500] underline">
+          Reserve now & pay later
+        </p>
+        &#9642;
+        <p class="text-sm text-darkest font-[500] underline">
+          Free cancellation
+        </p>
+      </div>
+    </section>
 
     <script src="../public/scripts/tours.js"></script>
-</body>
+  </body>
 </html>
