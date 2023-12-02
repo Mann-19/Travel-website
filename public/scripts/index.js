@@ -186,12 +186,6 @@ const locationCards1 = [
           price: "7,066",
         },
         {
-          img: "../public/Images/sidebar/airlie-beach/to-do/beach-day-tour.jpg",
-          activity:
-            "Whitsundays Whitehaven Beach Day Tour - 2 Beaches 2 Lookouts 1 Snorkel Location",
-          price: "11,814",
-        },
-        {
           img: "../public/Images/sidebar/airlie-beach/to-do/scenic-flight.jpg",
           activity:
             "Whitsunday Islands and Heart Reef Scenic Flight - 70 minutes",
@@ -204,7 +198,7 @@ const locationCards1 = [
           price: "28,208",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/ocean-rafting-tour.jpg",
+          img: "../public/Images/sidebar/airlie-beach/to-do/ocean-rafting tour.jpg",
           activity:
             "Ocean Rafting Tour to Whitehaven Beach, Hill Inlet Lookout & Top Snorkel Spots",
           price: "10,797",
@@ -232,34 +226,29 @@ const locationCards2 = [
     name: "Kyoto, Japan",
     sidebar: {
       locationName: "Kyoto",
-      img: "../public/Images/sidebar/kyoto.jpg",
+      img: "../public/Images/sidebar/kyoto/kyoto.jpg",
       info: "The shrines and temples of Kyoto offer a rare link between modern life in the city and its very ancient past. The Shimogamo Shrine dates to the 6th century and seems suspended in time, its serenity and spiritual power still palpable. Visit Fushimi Inari Shrine, then see the life-sized Thousand Armed Kannon statues of Sanjūsangen-dō. Take in traditional geisha performances, then savor a tranquil meal at a restaurant overlooking the Kamo River.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/kyoto/to-do/private-tour.jpg",
+          activity: "Kyoto 6hr Private Tour with Government-Licensed Guide",
+          price: "12,176",
+        },
+        {
+          img: "../public/Images/sidebar/kyoto/to-do/walking-tour.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "Arashiyama Walking Tour - Bamboo Forest, Monkey Park & Secrets",
+          price: "6,997",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/kyoto/to-do/e-biking-tour.jpg",
+          activity: "Hidden Kyoto E-Biking tour",
+          price: "8,117",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/kyoto/to-do/foodie-tour.jpg",
+          activity: "Kyoto Night Foodie Tour",
+          price: "13,712",
         },
       ],
       travelAdvice: {
@@ -290,34 +279,31 @@ const locationCards2 = [
     name: "Hanoi, Vietnam",
     sidebar: {
       locationName: "Hanoi",
-      img: "../public/Images/sidebar/hanoi.jpg",
+      img: "../public/Images/sidebar/hanoi/hanoi.jpg",
       info: "Hanoi, the country's charming capital has aged well, preserving the Old Quarter, monuments and colonial architecture, while making room for modern developments alongside. The city may have shrugged off several former names, including Thang Long, or 'ascending dragon,'but it hasn't forgotten its past, as sites such as Ho Chi Minh's Mausoleum and Hoa Lo Prison attest. Lakes, parks, shady boulevards, and more than 600 temples and pagodas add to the appeal of this city, which is easily explored by taxi.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/hanoi/to-do/full-day-tour.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "Ninh Binh Full-Day Tour from Hanoi to Hoa Lu, Tam Coc & Mua Cave Via Boat & Bike",
+          price: "5,122",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/hanoi/to-do/cooking-class.jpg",
+          activity: "5 Traditional Dishes Hanoi Cooking Class with Market Trip",
+          price: "2,955",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
+          img: "../public/Images/sidebar/hanoi/to-do/cruise-day-tour.jpg",
+          activity:
+            "Ha Long Bay Cruise Day Tour - best selling: Kayaking, Swimming, hiking & Lunch",
+          price: "4,780",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/hanoi/to-do/jeep-tours.jpg",
+          activity:
+            "Hanoi Jeep Tours: Food+ Culture + Sight +Fun By Vietnam Army Jeep",
+          price: "4,524",
         },
       ],
       travelAdvice: {
@@ -348,34 +334,29 @@ const locationCards2 = [
     name: "Singapore, Singapore",
     sidebar: {
       locationName: "Singapore",
-      img: "../public/Images/sidebar/singapore.jpg",
+      img: "../public/Images/sidebar/singapore/singapore.jpg",
       info: "This tiny island city-state is a study of fusions and contrasts bursting with wonders waiting to be explored. Tranquil parks abut futuristic skyscrapers and luxe shopping centres. A thriving street food scene and world-class restaurants offer countless ways to taste and sip your way through Singapore’s culinary melting pot. Your first trip to Singapore will prove that sometimes the best things come in small packages.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/singapore/to-do/private-tour.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "Private Singapore Tour with a Local, Highlights & Hidden Gems 100% Personalised",
+          price: "6,485",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/singapore/to-do/kayaking.jpg",
+          activity: "Mangrove Kayaking Adventure in Singapore",
+          price: "6,805",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
+          img: "../public/Images/sidebar/singapore/to-do/sunset-cruise.jpg",
+          activity: "Sunset Sail Cruise with 5 Course Seated Dinner",
+          price: "18,941",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/singapore/to-do/duck-tour.jpg",
+          activity: "Singapore Duck Tour",
+          price: "2,889",
         },
       ],
       travelAdvice: {
@@ -406,34 +387,26 @@ const locationCards2 = [
     name: "Jeju, South Korea",
     sidebar: {
       locationName: "Jeju",
-      img: "../public/Images/sidebar/jeju.jpg",
+      img: "../public/Images/sidebar/jeju/jeju.jpg",
       info: "Jeju is a hot tourist spot, booming with unique attractions. Romantic sunrises and sunsets, mild climate and beautiful sandy beaches make Jeju a popular honeymoon destination. Adventurers can hike to Baeknok Lake at the top of Mount Halla, South Korea’s highest peak. Keep an eye out for the “haenyeo,” female divers gathering fresh seafood, and the iconic “grandfather statues” displayed outside of many restaurants.",
       todoCards: [
         {
-          img: "../public/Images/sidebar/dubai/to-do/burj-khalifa.jpg",
+          img: "../public/Images/sidebar/jeju/to-do/east-bus-tour.jpg",
           activity:
-            "The Burj Khalifa 'At The Top' Observation Deck Admission Ticket",
-          price: "4,569",
+            "Jeju Island East Bus Tour with Lunch included Full Day Trip Tours",
+          price: "8,451",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/abu-dhabi-tour.jpg",
-          activity: "Abu Dhabi Private City Tour",
-          price: "17,079",
+          img: "../public/Images/sidebar/jeju/to-do/private-tour.jpg",
+          activity:
+            "Jeju Island English Flexible itenary Private Tour for 1 to 3 days",
+          price: "19,635",
         },
         {
-          img: "../public/Images/sidebar/dubai/to-do/yacht-cruising.jpg",
-          activity: "Yacht Cruising in Dubai",
-          price: "35,043",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/atlantis-aquaventure.jpg",
-          activity: "Atlantis Aquaventure Ticket",
-          price: "7,330",
-        },
-        {
-          img: "../public/Images/sidebar/dubai/to-do/red-dunes.jpg",
-          activity: "Dubai: Red Dunes ATV, Sandsurf, Camels, Stargazing",
-          price: "7,310",
+          img: "../public/Images/sidebar/jeju/to-do/hanbok-tour.jpg",
+          activity:
+            "[Jeju] Hanbok Private guide tour & photo session in beautiful Yongduam rock",
+          price: "6,573",
         },
       ],
       travelAdvice: {
@@ -508,7 +481,7 @@ function createCard(cardData, cardContainer) {
   });
 }
 
-// close button functionality
+// Close button functionality
 closeBtn.addEventListener("click", () => {
   body.classList.remove("overflow-hidden");
   sidebarOverlay.classList.toggle("hidden");
@@ -522,6 +495,12 @@ locationCards1.forEach((cardData) => {
 });
 locationCards2.forEach((cardData) => {
   createCard(cardData, cardContainer2);
+});
+
+// Adding scroll into view for discover
+const discoverLink = document.getElementById("discover-link");
+discoverLink.addEventListener("click", () => {
+  cardContainer1.scrollIntoView({ behavior: "smooth" });
 });
 
 // Function to populate data into sidebar dynamically
@@ -598,6 +577,7 @@ function populateTravelAdvice(travelData) {
   });
 }
 
+// Funtion to populate dynamic videos for each sidebar
 function populateVideo(videoCode) {
   const videoContainer = document.getElementById("video-container");
   const videoElement = document.createElement("div");

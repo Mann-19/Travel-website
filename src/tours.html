@@ -53,14 +53,14 @@
       id="location-name"
       class="text-3xl text-brand font-[700] mx-8 mt-4 underline"
     ></h1>
-    <header id="header" class="flex">
+    <header id="header" class="flex h-[90vh]">
       <!-- Map element -->
       <div id="map-container" class="m-8 rounded-lg overflow-hidden">
         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7220.342447009472!2d55.274348036209396!3d25.197447618829624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682829c85c07%3A0xa5eda9fb3c93b69d!2sDubai%20Mall!5e0!3m2!1sen!2sin!4v1701361693776!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
       </div>
 
       <!-- Itinerary planner -->
-      <section id="itinerary-planner">
+      <section id="itinerary-planner" class="overflow-y-scroll no-scrollbar">
         <h1 class="text-2xl text-darkest font-[500] my-8 underline block">
           Itinerary
         </h1>
@@ -122,7 +122,7 @@
         <span id="price" class="text-xl text-dark font-[500] mx-2"
           >₹17,081.19</span
         >
-        per group
+        <span id="category"></span>
       </p>
 
       <div class="flex gap-4 mx-10 mt-2 mb-12">
