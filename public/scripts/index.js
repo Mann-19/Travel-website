@@ -272,6 +272,7 @@ const locationCards2 = [
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/3gX-umzVl9s?si=OZNyyg-79z4WDkfW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
     },
   },
   {
@@ -327,6 +328,7 @@ const locationCards2 = [
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Dwj-1whHfTI?si=EksRwjiwnMgwJtTh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
     },
   },
   {
@@ -380,6 +382,7 @@ const locationCards2 = [
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/U24bE7DslEI?si=Ixx9bBV3n9NRdiqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
     },
   },
   {
@@ -430,6 +433,7 @@ const locationCards2 = [
           },
         ],
       },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kF6-20x8Bpo?si=DK2nSyLLmWTu-uKm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
     },
   },
 ];
