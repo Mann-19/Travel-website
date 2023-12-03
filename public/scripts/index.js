@@ -217,6 +217,176 @@ const locationCards1 = [
       videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/p569v1r0esA?si=EW0TiQIh0dkYYyTs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
+  {
+    imgUrl: "../public/Images/home-page-cards/nashik.jpg",
+    name: "Nashik, India",
+    sidebar: {
+      locationName: "Nashik",
+      img: "../public/Images/sidebar/nashik/nashik.jpg",
+      info: "Situated on the banks of the river Godavari, the city of Nashik, also known as Nasik, is a major Hindu pilgrimage center. Nashik is a bustling township with a blend of the ancient and the modern. Scattered across the city are numerous forts and majestic temples that vie for space with factories and other symbols of Modern India. The Kumbh Mela is the major attraction of Nashik. Occurring once every twelve years it draws innumerable devotees to the city. Other attractions around the city include - Pandavleni Caves, Muktidham Temple, Kalaram Temple among others. Day excursions to Shirdi, Someshwar, Wani are also very popular.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/nashik/to-do/vineyard.jpg",
+          activity: "Sula Vineyards Day tour from Mumbai",
+          price: "8,100",
+        },
+        {
+          img: "../public/Images/sidebar/nashik/to-do/jyotirlinga-temples.jpg",
+          activity: "Three Jyotirlinga Temples in Maharashtra",
+          price: "75,549",
+        },
+        {
+          img: "../public/Images/sidebar/nashik/to-do/old-nashik.jpg",
+          activity: "Walking tour of historic Old Nashik and Panchwati",
+          price: "910",
+        },
+        {
+          img: "../public/Images/sidebar/nashik/to-do/12-day-tour.jpg",
+          activity: "Travel 12 days in wonderful Maharashtra",
+          price: "45,490",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "October to March are the best months to go to the city when Nashik temperature dips. On the other hand, the summer season starts from April and lasts till June. From July to September, Nashik receives considerable rainfall.",
+        localCustoms: [
+          {
+            heading: "No specific customs",
+            content: "",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/pqQC-zNpnAM?si=ROqGaFrAlxIaywer" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
+  {
+    imgUrl: "../public/Images/home-page-cards/bali.jpg",
+    name: "Bali, Indonesia",
+    sidebar: {
+      locationName: "Bali",
+      img: "../public/Images/sidebar/bali/bali.jpg",
+      info: "Bali packs a lot into one small island— from breathtaking waterfalls like Sekumpul in the north to the white sand beaches of Nyang Nyang in the south. Whatever you’re seeking, you’ll probably find: surf-able waves in Batu Bolong, all-night clubs in Seminyak, luxury clifftop hotels in Nusa Dua, and spiritual refuges all around. Snap a pic at the Gateway to Heaven, cut through the jungle to the hidden Gunung Kawi Temple, and catch the sunset and a traditional fire dance at Uluwatu Temple. Just don’t miss the markets—hunt for handcrafted artwork and textiles at the Sukawati Art Market, or snack on street food staples like satay and bakso at the Sindhu Night Market. For even more tastes and things to do, check out our recs below.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/bali/to-do/nusa-penida.jpg",
+          activity: "Nusa Penida One Day Trip with All-inclusive",
+          price: "7,418",
+        },
+        {
+          img: "../public/Images/sidebar/bali/to-do/food-tour.jpg",
+          activity:
+            "Bali Food Tour: Savor Street Food and Night Market Adventures",
+          price: "2,813",
+        },
+        {
+          img: "../public/Images/sidebar/bali/to-do/ubud-tour.jpg",
+          activity: "Ubud Tour - Best of Ubud - All Inclusive",
+          price: "8,527",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit:
+          "October to March are the best months to go to the city when Nashik temperature dips. On the other hand, the summer season starts from April and lasts till June. From July to September, Nashik receives considerable rainfall.",
+        localCustoms: [
+          {
+            heading: "No specific customs",
+            content: "",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/BFS9n4B_2xA?si=rCT2_V6thPrq_LTI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
+  {
+    imgUrl: "../public/Images/home-page-cards/mount-abu.jpg",
+    name: "Mount Abu, India",
+    sidebar: {
+      locationName: "Mount Abu",
+      img: "../public/Images/sidebar/mount-abu/mount-abu.jpg",
+      info: "Situated amidst lush green, forested hills on the highest peak in the Aravali range, Mount Abu is the summer capital for the Indian state of Rajasthan. Its cool and soothing climate makes it an ideal retreat. Explore a number of Jain temples, including the Dilwara Temples, a complex carved of while marble, or visit the nearby Achalgarh fort, which houses many beautiful temples of its own.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/mount-abu/to-do/triangle-tour.jpg",
+          activity:
+            " 4 Night 5 Days Golden Triangle Tour ( Jaipur - Agra - Delhi - Jaipur )",
+          price: "28,992",
+        },
+        {
+          img: "../public/Images/sidebar/mount-abu/to-do/udaipur-abu.jpg",
+          activity: "Private Day Tour Of Mount Abu From Udaipur",
+          price: "4,519",
+        },
+        {
+          img: "../public/Images/sidebar/mount-abu/to-do/sigthseeing.jpg",
+          activity: "One Day Guided Mount Abu Local Sightseeing Trip by Cab",
+          price: "4,500",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit: `Mount Abu is a Hills & Mountains destination. The best time to visit Mount Abu is October, November, December, January and February. Since this is the peak season expect a little crowd during this time. March, April, May and June period experiences moderate weather.`,
+        localCustoms: [
+          {
+            heading: "No specific customs",
+            content: "",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/ghwuhlon2J8?si=5aEMyUeLlR4wnQAL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
+  {
+    imgUrl: "../public/Images/home-page-cards/tokyo.jpg",
+    name: "Tokyo, Japan",
+    sidebar: {
+      locationName: "Tokyo",
+      img: "../public/Images/sidebar/tokyo/tokyo.jpg",
+      info: "With its futuristic skyscrapers, unrivalled food scene, and wild nightlife, Tokyo is a rush of pure adrenaline. The city is famously cutting-edge, yet its ancient Buddhist temples, vintage teahouses, and peaceful gardens offer a serene escape—and a reminder of its past. Spend the morning in Asakusa, Tokyo’s historical neighbourhood, to see the Sensoji temple, then take a stroll along the Sumida River (in the spring, the cherry blossoms are in full force). Or, make your way to Tsukiji Outer Market for a sushi breakfast—the narrow corridors are packed with tons of spots to choose from (most close around noon so get there early). Turn up the volume—and get a taste for cosplay culture—in Harajuku, or hit Akihabara for video games and anime. In the evening, take a detour down a yokocho—a little side street alleyway—to find laid-back izakayas and chill bars.That’s only scratching the surface—we’ve got more recs, below.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/tokyo/to-do/mt-fuji.jpg",
+          activity:
+            "Mt Fuji, Hakone Lake Ashi Cruise Bullet Train Day Trip from Tokyo",
+          price: "10,776",
+        },
+        {
+          img: "../public/Images/sidebar/tokyo/to-do/bus-tour.jpg",
+          activity: "1-Day Tokyo Bus Tour",
+          price: "8,961",
+        },
+        {
+          img: "../public/Images/sidebar/tokyo/to-do/go-kart.jpg",
+          activity: "Official Street Go-Kart in Shibuya",
+          price: "8,737",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit: `October to February: Tokyo is a great destination all year round. However, the summer months can be excruciatingly hot. Avoid July, August, and early September if you don’t like to sweat as the average temperature over these months hovers at 85 Fahrenheit (29 Celsius). Tokyo’s high season falls between mid-March to late April, especially because many domestic and foreign travelers like to come at that time to see the cherry blossoms. Similarly, October and early November are peak times to view the fall foliage.`,
+        localCustoms: [
+          {
+            heading: "Blowing your nose",
+            content:
+              "Try not to blow your nose in public, and avoid both eating and drinking on the street (ok in parks). It is considered rude.",
+          },
+          {
+            heading: "Counting your change",
+            content:
+              "Do not count change in view of the person who gave it to you. It is also considered rude.",
+          },
+          {
+            heading: "Public transportation",
+            content:
+              "Try to be quiet in trains, at restaurants, and at your hotel. Japanese culture puts great emphasis on consideration for others and maintaining a quiet and harmonious atmosphere.",
+          },
+          {
+            heading: "Tattoos",
+            content:
+              "If you have a tattoo, forget trying to visit a Japanese hot spring. Unless you have booked a hotel room with a private bath, you won’t be able to enter.",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/O2yMv1JDYRU?si=ToelaafZAmRm63aN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
 ];
 
 // Data for 2nd row of cards
@@ -272,7 +442,7 @@ const locationCards2 = [
           },
         ],
       },
-      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/3gX-umzVl9s?si=OZNyyg-79z4WDkfW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/3gX-umzVl9s?si=OZNyyg-79z4WDkfW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
   {
@@ -328,7 +498,7 @@ const locationCards2 = [
           },
         ],
       },
-      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Dwj-1whHfTI?si=EksRwjiwnMgwJtTh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/Dwj-1whHfTI?si=EksRwjiwnMgwJtTh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
   {
@@ -382,7 +552,7 @@ const locationCards2 = [
           },
         ],
       },
-      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/U24bE7DslEI?si=Ixx9bBV3n9NRdiqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/U24bE7DslEI?si=Ixx9bBV3n9NRdiqP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
   {
@@ -433,7 +603,160 @@ const locationCards2 = [
           },
         ],
       },
-      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kF6-20x8Bpo?si=DK2nSyLLmWTu-uKm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/kF6-20x8Bpo?si=DK2nSyLLmWTu-uKm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
+  {
+    imgUrl: "../public/Images/home-page-cards/new-delhi.jpg",
+    name: "New Delhi, India",
+    sidebar: {
+      locationName: "New Delhi",
+      img: "../public/Images/sidebar/new-delhi/new-delhi.jpg",
+      info: "Laid out by British architect Edwin Lutyens, the Indian capital is a striking modern metropolis. A gracious contrast to Old Delhi's winding streets, the grand avenues and stately buildings of New Delhi are rich with history and culture, from Gandhi's Delhi home (and the site of his assassination) to the tomb of Humayun, a complex of Mughal buildings reminiscent of the Taj Mahal. Chaotic traffic is best left to the locals. Negotiate a good price for taxis or travel on the new Delhi Metro.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/new-delhi/to-do/old-delhi.jpg",
+          activity: "Old Delhi Food and Heritage Walk",
+          price: "3,751",
+        },
+        {
+          img: "../public/Images/sidebar/new-delhi/to-do/full-day-tour.jpg",
+          activity: "Private Full Day Old and New Delhi City Tour",
+          price: "1,108",
+        },
+        {
+          img: "../public/Images/sidebar/new-delhi/to-do/taj-mahal.jpg",
+          activity: "Sunrise Taj Mahal Trip from Delhi all Inclusive",
+          price: "8,365",
+        },
+        {
+          img: "../public/Images/sidebar/new-delhi/to-do/chandni-chowk.jpg",
+          activity: "Chandni Chowk Delhi Food Tour with 13+ Tastings",
+          price: "2,984",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit: `The best time to visit Delhi is from October to March when the weather is at its best. During this period flowers are at their blooming best, the weather is pleasent and enjoyable to experience Incredible Delhi.`,
+        localCustoms: [
+          {
+            heading: "No specific customs",
+            content: "",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/PR8NA6qqbdk?si=Jth7KpTTbuApIzlo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
+  {
+    imgUrl: "../public/Images/home-page-cards/phuket.jpg",
+    name: "Phuket, Thailand",
+    sidebar: {
+      locationName: "Phuket",
+      img: "../public/Images/sidebar/phuket/phuket.jpg",
+      info: "Tropical beaches, hidden temples, local markets, and a thumping club scene. Phuket draws those who mellow in the sun and thrive at night. Further inland, Phuket Town’s eateries allow you to dip into chili and blue ginger-spiced dishes, and a stroll through the old quarter opens a window into the layers of its past. Despite its size and geography, there’s plenty of dining, accommodations, and adventure to satisfy luxury travellers and budget-conscious trip takers all year long.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/phuket/to-do/atv.jpg",
+          activity: "Atv Big Buddha Phuket Viewpoint",
+          price: "2,952",
+        },
+        {
+          img: "../public/Images/sidebar/phuket/to-do/cooking-class.jpg",
+          activity: "Phuket Thai Cooking Class",
+          price: "4,920",
+        },
+        {
+          img: "../public/Images/sidebar/phuket/to-do/phi-phi-island.jpg",
+          activity:
+            "Phi Phi Islands Adventure Day Trip with Seaview Lunch by V. Marine Tour",
+          price: "6,888",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit: `November to February: The weather in Thailand varies between hot, and really, really hot. The hottest season runs from March through to June, with April and May as the hottest months of the year.
+
+          The cool season normally runs from November through February and will still feel hot to most visitors. Temperatures during this time typically range from 73 Fahrenheit (23 Celsius) to 86 Fahrenheit (30 Celsius).`,
+        localCustoms: [
+          {
+            heading: "The King",
+            content:
+              "The king is very highly regarded in Thailand, as evidenced by the pictures displayed everywhere. Do not say or do anything disrespectful of the king or the royal family, even to the extent of stomping on a Thai coin or banknote which has been dropped and is rolling/blowing away. (It bears an image of the King's head, and is highly insulting to be touched by your feet.)",
+          },
+          {
+            heading: "Hailing Taxies",
+            content:
+              "When hailing taxis, it is common to keep your hand horizontal, fingers facing down. Holding your hand with fingers up is considered rude.",
+          },
+          {
+            heading: "Temples and Monks",
+            content:
+              "When visiting temples, dress conservatively. Women particularly should wear long skirts or trousers and cover their shoulders and knees. Many temples state as you enter that photography is not permitted. Even if there is no sign, please be respectful and consider whether it is appropriate to be taking flash photographs in a place of worship. Even more so if monks are present worshipping!",
+          },
+          {
+            heading: "Shoes",
+            content:
+              "Always remove your shoes when entering temples (the same rule applies when entering a person's home), and do not sit with your feet towards the Buddha. Sit either cross-legged or with your feet tucked behind you. In many Asian cultures, the feet are considered the lowest, dirtiest part of the body, and the head the highest. So do not point to things with your feet, hold doors open with your feet, point your feet to the Buddha images, or point at or touch peoples' heads. Under no circumstances should a woman ever touch a monk.",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/m_pCh6p8_wg?si=r8ClE9Sm-Dj3iI5Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
+    },
+  },
+  {
+    imgUrl: "../public/Images/home-page-cards/bangkok.jpg",
+    name: "Bangkok, Thailand",
+    sidebar: {
+      locationName: "Bangkok",
+      img: "../public/Images/sidebar/bangkok/bangkok.jpg",
+      info: "There are cities and then there is Bangkok. Temples like Wat Pho are thronged with devotees all day. Street food sizzles all evening. The heat never stops. And the nightlife—from sleazy Patpong to ritzy rooftop bars—is second to none. But the pleasures don’t end there. Night markets, mega malls, and the massive Chatuchak Weekend Market all make Bangkok a shoppers’ (and souvenir-hunter’s) dream. You’ll need to prepare yourself—Bangkok is intense. But for travellers craving local secrets and 24/7 energy, there’s nowhere in the world quite like it.",
+      todoCards: [
+        {
+          img: "../public/Images/sidebar/bangkok/to-do/canal-tour.jpg",
+          activity: "Longtail boat 2 hrs - Bangkok Canal tour",
+          price: "2,829",
+        },
+        {
+          img: "../public/Images/sidebar/bangkok/to-do/temples.jpg",
+          activity: "Three BEST Temples Bangkok City Tour 'Must Visit'",
+          price: "7,381",
+        },
+        {
+          img: "../public/Images/sidebar/bangkok/to-do/river-kwai.jpg",
+          activity: "River Kwai Full Day Tour",
+          price: "6,150",
+        },
+        {
+          img: "../public/Images/sidebar/bangkok/to-do/jungle-bike-tour.jpg",
+          activity: "Bangkok Jungle Bike Tour - Including Transfer & Lunch",
+          price: "6,150",
+        },
+      ],
+      travelAdvice: {
+        bestTimeToVisit: `November through January: Bangkok is hot and steamy no matter what time of year you visit, however, the very best time to visit is late November to mid-January. Known as the “cool season,” the temperatures sit around 90 Fahrenheit (36 Celsius).`,
+        localCustoms: [
+          {
+            heading: "The King",
+            content:
+              "The king is very highly regarded in Thailand, as evidenced by the pictures displayed everywhere. Do not say or do anything disrespectful of the king or the royal family, even to the extent of stomping on a Thai coin or banknote which has been dropped and is rolling/blowing away. (It bears an image of the King's head, and is highly insulting to be touched by your feet.)",
+          },
+          {
+            heading: "Hailing Taxies",
+            content:
+              "When hailing taxis, it is common to keep your hand horizontal, fingers facing down. Holding your hand with fingers up is considered rude.",
+          },
+          {
+            heading: "Temples and Monks",
+            content:
+              "When visiting temples, dress conservatively. Women particularly should wear long skirts or trousers and cover their shoulders and knees. Many temples state as you enter that photography is not permitted. Even if there is no sign, please be respectful and consider whether it is appropriate to be taking flash photographs in a place of worship. Even more so if monks are present worshipping!",
+          },
+          {
+            heading: "Shoes",
+            content:
+              "Always remove your shoes when entering temples (the same rule applies when entering a person's home), and do not sit with your feet towards the Buddha. Sit either cross-legged or with your feet tucked behind you. In many Asian cultures, the feet are considered the lowest, dirtiest part of the body, and the head the highest. So do not point to things with your feet, hold doors open with your feet, point your feet to the Buddha images, or point at or touch peoples' heads. Under no circumstances should a woman ever touch a monk.",
+          },
+        ],
+      },
+      videoCode: `<iframe width="560" height="315" src="https://www.youtube.com/embed/dsE-3VU6j7c?si=DSReP9enBvTVrs0H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>`,
     },
   },
 ];
