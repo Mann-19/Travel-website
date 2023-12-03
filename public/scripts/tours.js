@@ -867,9 +867,83 @@ const data = {
       },
     },
   ],
-  phuketData: [
+  delhiData: [
     {
       id: "13-1",
+      locationName: "Old Delhi Food and Heritage Walk",
+      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9088147850152!2d77.21541697387828!3d28.632494884085315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3873747683%3A0x6c597f5b2ded0279!2sGate%20No.%207%2C%20Rajiv%20Chowk%20Metro%20Station!5e0!3m2!1sen!2sin!4v1701630886199!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+      itinerary: [
+        "You'll start at: Gate No. 7, Rajiv Chowk Metro Station",
+        "Khari Baoli",
+        "Balli Maran",
+        "Naughara - Row Of Nine Houses",
+        "Chandni Chowk",
+      ],
+      about: `Foodie travelers won’t want to miss this half-day food and heritage tour of Old Delhi. Avoid getting lost in the maze of streets or getting sick eating at the wrong places. On this small-group tour (max. 6) you’ll be taken to some of the best, cleanest, and most interesting street food spots that you might not find independently. Learn more about Old Delhi’s culture and history through its cuisine.
+        `,
+      price: {
+        amount: "₹3,751.90",
+        category: " adult",
+      },
+    },
+    {
+      id: "13-2",
+      locationName: "Private Full Day Old and New Delhi City Tour",
+      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3016969015216!2d77.23086717387915!3d28.650683883259045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd18df89b215%3A0xdd57369e29bf9d96!2sJama%20Masjid!5e0!3m2!1sen!2sin!4v1701631138506!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+      itinerary: [
+        "You'll start at: Friday Mosque (Jama Masjid)",
+        "Gurudwara Bangla Sahib",
+        "India Gate",
+        "Humayun's Tomb",
+        "Swaminarayan Akshardham",
+        "Qutub Minar",
+        "Lotus Temple",
+        "Raj Ghat",
+      ],
+      about: `Explore the sights of Old and New Delhi with your own private guide on a full-day tour. Travel in a private air-conditioned vehicle to UNESCO World Heritage sites including Jama Masjid, Qutub Minar, and Humayun's Tomb. You'll also go to other attractions like Raj Ghat—a memorial to Mahatma Gandhi, Parliament House, and Chandni Chowk; and temples such as the lavish Akshardham. Includes entrance fees, and round-trip transfers from your Delhi hotel, airport or train station.
+        `,
+      price: {
+        amount: "₹1,108.52",
+        category: " adult (price varies by group size)",
+      },
+    },
+    {
+      id: "13-3",
+      locationName: "Sunrise Taj Mahal Trip from Delhi all Inclusive",
+      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1282593.9979674933!2d77.00094028346007!3d27.38511801251071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397470d491343beb%3A0x640a5ccc94029576!2sAgra%20Fort!5e0!3m2!1sen!2sin!4v1701631481814!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+      itinerary: [
+        "You'll get picked up from hotel",
+        "Taj Mahal",
+        "Agra Fort",
+        "You'll return to the starting point",
+      ],
+      about: `Make a tour to Agra easy and stress-free with round-trip private transportation and a dedicated guide. Make your own schedule for pickup and drop-off at your New Delhi hotel; move at your own pace while exploring the landmarks in Agra. Lunch at a top Agra restaurant and entry fees to sites visited are included in the tour price.
+        `,
+      price: {
+        amount: "₹8,365.03",
+        category: " adult (price varies by group size)",
+      },
+    },
+    {
+      id: "13-4",
+      locationName: "Chandni Chowk Delhi Food Tour with 13+ Tastings",
+      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0386064281147!2d77.23505117387953!3d28.658562682901017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd1ce1bb4817%3A0x77cd599c9b6e6ee8!2sAngoori%20Bagh%20Rd%2C%20Lal%20Qila%2C%20Chandni%20Chowk%2C%20Delhi%2C%20110006!5e0!3m2!1sen!2sin!4v1701631871964!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
+      itinerary: [
+        "You'll start at:  Angoori Bagh Road",
+        "Chandni Chowk",
+        "You'll return to the starting point",
+      ],
+      about: `Taste your way through Old Delhi’s food scene on this private excursion. After meeting your guide at Chandni Chowk metro station, immerse yourself Delhi cuisine and culture with complimentary tastings of pani puris, pakoras, stuffed parathas, paneer masala curry, and other dishes. Tour a Sikh temple with a 24-hour kitchen and learn to make chapattis, explore a spice market, and savor delicious desserts.
+        `,
+      price: {
+        amount: "₹2,984.46",
+        category: " adult",
+      },
+    },
+  ],
+  phuketData: [
+    {
+      id: "14-1",
       locationName: "Atv Big Buddha Phuket Viewpoint",
       mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.642763542909!2d98.31026737327159!3d7.827581606640389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30502f60cf972939%3A0x7fcb3b1b04652c5c!2sThe%20Big%20Buddha%2C%20Phuket!5e0!3m2!1sen!2sin!4v1701629446022!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
       itinerary: [
@@ -886,7 +960,7 @@ const data = {
       },
     },
     {
-      id: "13-2",
+      id: "14-2",
       locationName: "Phuket Thai Cooking Class",
       mapCode: `
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.717746741297!2d98.30441617327143!3d7.819671206748898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3050259b23db3cdb%3A0xa1dea2cb696f7701!2sPhuket%20Thai%20Cooking%20Class%20by%20VJ!5e0!3m2!1sen!2sin!4v1701629537567!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -900,7 +974,7 @@ const data = {
       },
     },
     {
-      id: "13-3",
+      id: "14-3",
       locationName:
         "Phi Phi Islands Adventure Day Trip with Seaview Lunch by V. Marine Tour",
       mapCode: `
@@ -925,80 +999,7 @@ const data = {
       },
     },
   ],
-  delhiData: [
-    {
-      id: "14-1",
-      locationName: "Old Delhi Food and Heritage Walk",
-      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.9088147850152!2d77.21541697387828!3d28.632494884085315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd3873747683%3A0x6c597f5b2ded0279!2sGate%20No.%207%2C%20Rajiv%20Chowk%20Metro%20Station!5e0!3m2!1sen!2sin!4v1701630886199!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
-      itinerary: [
-        "You'll start at: Gate No. 7, Rajiv Chowk Metro Station",
-        "Khari Baoli",
-        "Balli Maran",
-        "Naughara - Row Of Nine Houses",
-        "Chandni Chowk",
-      ],
-      about: `Foodie travelers won’t want to miss this half-day food and heritage tour of Old Delhi. Avoid getting lost in the maze of streets or getting sick eating at the wrong places. On this small-group tour (max. 6) you’ll be taken to some of the best, cleanest, and most interesting street food spots that you might not find independently. Learn more about Old Delhi’s culture and history through its cuisine.
-        `,
-      price: {
-        amount: "₹3,751.90",
-        category: " adult",
-      },
-    },
-    {
-      id: "14-2",
-      locationName: "Private Full Day Old and New Delhi City Tour",
-      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.3016969015216!2d77.23086717387915!3d28.650683883259045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd18df89b215%3A0xdd57369e29bf9d96!2sJama%20Masjid!5e0!3m2!1sen!2sin!4v1701631138506!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
-      itinerary: [
-        "You'll start at: Friday Mosque (Jama Masjid)",
-        "Gurudwara Bangla Sahib",
-        "India Gate",
-        "Humayun's Tomb",
-        "Swaminarayan Akshardham",
-        "Qutub Minar",
-        "Lotus Temple",
-        "Raj Ghat",
-      ],
-      about: `Explore the sights of Old and New Delhi with your own private guide on a full-day tour. Travel in a private air-conditioned vehicle to UNESCO World Heritage sites including Jama Masjid, Qutub Minar, and Humayun's Tomb. You'll also go to other attractions like Raj Ghat—a memorial to Mahatma Gandhi, Parliament House, and Chandni Chowk; and temples such as the lavish Akshardham. Includes entrance fees, and round-trip transfers from your Delhi hotel, airport or train station.
-        `,
-      price: {
-        amount: "₹1,108.52",
-        category: " adult (price varies by group size)",
-      },
-    },
-    {
-      id: "14-3",
-      locationName: "Sunrise Taj Mahal Trip from Delhi all Inclusive",
-      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1282593.9979674933!2d77.00094028346007!3d27.38511801251071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397470d491343beb%3A0x640a5ccc94029576!2sAgra%20Fort!5e0!3m2!1sen!2sin!4v1701631481814!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
-      itinerary: [
-        "You'll get picked up from hotel",
-        "Taj Mahal",
-        "Agra Fort",
-        "You'll return to the starting point",
-      ],
-      about: `Make a tour to Agra easy and stress-free with round-trip private transportation and a dedicated guide. Make your own schedule for pickup and drop-off at your New Delhi hotel; move at your own pace while exploring the landmarks in Agra. Lunch at a top Agra restaurant and entry fees to sites visited are included in the tour price.
-        `,
-      price: {
-        amount: "₹8,365.03",
-        category: " adult (price varies by group size)",
-      },
-    },
-    {
-      id: "14-4",
-      locationName: "Chandni Chowk Delhi Food Tour with 13+ Tastings",
-      mapCode: `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.0386064281147!2d77.23505117387953!3d28.658562682901017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd1ce1bb4817%3A0x77cd599c9b6e6ee8!2sAngoori%20Bagh%20Rd%2C%20Lal%20Qila%2C%20Chandni%20Chowk%2C%20Delhi%2C%20110006!5e0!3m2!1sen!2sin!4v1701631871964!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`,
-      itinerary: [
-        "You'll start at:  Angoori Bagh Road",
-        "Chandni Chowk",
-        "You'll return to the starting point",
-      ],
-      about: `Taste your way through Old Delhi’s food scene on this private excursion. After meeting your guide at Chandni Chowk metro station, immerse yourself Delhi cuisine and culture with complimentary tastings of pani puris, pakoras, stuffed parathas, paneer masala curry, and other dishes. Tour a Sikh temple with a 24-hour kitchen and learn to make chapattis, explore a spice market, and savor delicious desserts.
-        `,
-      price: {
-        amount: "₹2,984.46",
-        category: " adult",
-      },
-    },
-  ],
+  
   bangkokData: [
     {
       id: "15-1",
